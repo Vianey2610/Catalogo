@@ -18,7 +18,7 @@
     </header>
 
     <section>
-        <img src="zapatos-rojos.jpeg" alt="Zapatos Rojos" class="product-image">
+        <img src="img.jpeg" alt="Zapatos Rojos" class="product-image">
 
         <div class="button-container">
             <button onclick="mostrarProductos()">Ver Lista de Productos</button>
@@ -38,7 +38,7 @@
     <script>
         function mostrarProductos() {
             var script = document.createElement('script');
-            script.src = 'productos.js';  // Cargar datos desde JSONP
+            script.src = 'productos.jsonp';  // Cargar datos desde JSONP
             document.body.appendChild(script);
         }
     </script>
