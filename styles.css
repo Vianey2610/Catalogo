@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+/* Información de contacto */
+.contact-info {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    text-align: right;
+    color: white;
+}
+
+/* Estilo de la imagen */
+.product-image {
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Botón */
+.button-container button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button-container button:hover {
+    background-color: #555;
+}
+
+/* Estilo de la tabla */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 2px solid #ddd;
+}
+
+th {
+    background-color: #FFC0CB;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Nombre del autor */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.author {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: -1;
+}
